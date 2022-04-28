@@ -1,0 +1,35 @@
+.modal-window{
+    z-index: 999;
+    position:absolute;
+    top: 35%;
+    /* transform: translateY(-30%); */
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    text-align: start;
+
+}
+
+.modal-window-header{
+    border-bottom: 1px solid lightgray;
+    padding: 0 10px 0 10px;
+}
+.modal-window-content{
+    border-bottom: 1px solid lightgray;
+    padding: 15px 10px 15px 10px;
+}
+.modal-window-footer{
+    padding: 5px 10px 0 10px;
+    text-align: end;
+}
+.modal-backdrop{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
